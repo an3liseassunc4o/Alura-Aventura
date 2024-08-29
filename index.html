@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Em busca da vitória</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/circuito silverstone.jpg" alt="">
+            <p> Você é um corredor de Fórmula 1 em 2024 e está prestes a correr no circuito de Silverstone na
+                Grã-Bretanha, o
+                tempo está favorável e quem sabe a sorte e o talento estão do seu lado hoje. Que corredor você é?</p>
+            <button class="btn-proximo" data-proximo="1">Lewis Hamilton-Mercedes</button>
+            <button class="btn-proximo" data-proximo="2">Lando Norris-McLaren</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/Lewis hamilton.jpg" alt="">
+            <p>Por enquanto você está em segundo lugar, talvez você seja a hora do Pit-Stop</p>
+            <button class="btn-proximo" data-proximo="3">Ir para o Pit-Stop</button>
+            <button class="btn-proximo" data-proximo="4">Continuar correndo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/lando-norris.jpg" alt="">
+            <p>Você está em primeiro lugar mas Hamilton esta muito perto</p>
+            <button class="btn-proximo" data-proximo="5">Ir para o Pit-Stop</button>
+            <button class="btn-proximo" data-proximo="6">Continuar correndo</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/ultrapassagem.png" alt="">
+            <p>Seus pneus estão melhores que o de Norris, você pode ultrapassa-lo</p>
+            <button class="btn-proximo" data-proximo="7">Ultrapassar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/ultrapassagem.png" alt="">
+            <p>Noris foi para o Pit-Stop, agora é a hora de ultrapassa-lo</p>
+            <button class="btn-proximo" data-proximo="7">Ultrapassar</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/ultrapassa2.png" alt="">
+            <p>Hamilton te ultrapassou e ganhou a corrida, você ficou em segundo lugar.</p>
+            <button class="btn-proximo" data-proximo="10">Subir no pódio</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/ultrapassa2.png" alt="">
+            <p>Hamilton foi para os pits e com pneus melhores te ultrapassou e ganhou a corrida, você chegou em segundo
+                lugar.</p>
+            <button class="btn-proximo" data-proximo="10">Subir no pódio</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/hamilton win.png" alt="">
+            <p>Você ultrapassou Lando Noris e venceu a corrida de Silverstone!</p>
+            <button class="btn-proximo" data-proximo="9">Subir no pódio.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="img/podio.png" alt="">
+            <p>Parabens pela sua vitória, você é o melhor!</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/segundo.png" alt="">
+            <p>Parabéns pela otima corrida</p>
+        </div>
+
+       
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
